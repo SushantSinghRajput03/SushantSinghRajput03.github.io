@@ -1,4 +1,4 @@
-# 👨‍💻 Sushant Kumar | Senior Web Developer
+# 👨‍💻 Sushant Kumar | Senior Web Developer 
 
 <div style="display: flex; align-items: flex-start;">
   <img src="/assets/Sushant-Kumar.jpeg" alt="Sushant Kumar" style="width: 30%; margin-right: 20px;">
