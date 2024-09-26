@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# 👨‍💻 Sushant Kumar - Senior Web Developer
 
-You can use the [editor on GitHub](https://github.com/SushantSinghRajput03/SushantSinghRajput03.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## 🚀 Welcome to My GitHub Pages
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+As a results-driven Senior Web Developer with 4+ years of experience, I specialize in backend development, API integration, and modern web frameworks. I'm passionate about building scalable solutions and leading technical teams to success.
 
-### Markdown
+### 📞 Contact Information
+- 📱 Phone: +91 8092189549
+- 📧 Email: sushantkumarr1234@gmail.com
+- 🔗 LinkedIn: [https://www.linkedin.com/in/sushantsinghrajput/](https://www.linkedin.com/in/sushantsinghrajput/)
+- 🐙 GitHub: [https://github.com/SushantSinghRajput03](https://github.com/SushantSinghRajput03)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 💼 Professional Experience
 
-```markdown
-Syntax highlighted code block
+#### Senior Web Developer at Klizo Solutions, NewTown, Kolkata (April 2022 - Present)
+- Led a team of 4 developers in microservices architecture
+- Integrated Stripe payment gateways
+- Implemented real-time updates with Vue.js and WebSockets
+- Migrated legacy code to PHP 8
+- Mentored junior developers and conducted code reviews
 
-# Header 1
-## Header 2
-### Header 3
+#### Laravel Developer at Cotocus Pvt. Ltd, Bokaro, Jharkhand (February 2020 - April 2022)
+- Developed major projects using Laravel and RESTful APIs
+- Integrated Vue.js for dynamic interfaces
+- Implemented Redis caching
+- Developed cross-platform mobile apps with Flutter
+- Maintained 99% uptime for live projects
 
-- Bulleted
-- List
+### 🛠️ Technical Skills
+- **Languages**: PHP, JavaScript, Dart
+- **Frameworks**: Laravel, Vue.js, React.js, Livewire, Bootstrap
+- **Databases**: MySQL, MongoDB, Redis
+- **Tools**: Git, Bitbucket, Jira, Linux, AWS
+- **API Integration**: Stripe, REST APIs, AWS SDK
 
-1. Numbered
-2. List
+### 🏆 Key Projects
 
-**Bold** and _Italic_ and `Code` text
+1. **Send-Whatsapp-Message-with-Twilio-php**: Automated WhatsApp messaging using Twilio API
+2. **searchable_dropdown_flutter**: Flutter package for searchable dropdown lists
+3. **Trip_Cost_Calculator**: Cross-platform mobile app for trip expense calculation
+4. **Flutter_Sidebar_Navigation**: Dynamic sidebar navigation package for Flutter
 
-[Link](url) and ![Image](src)
-```
+### 🎓 Education
+Diploma in Computer Science
+Govt. Polytechnic, Khutri, Bokaro (March 2016 - April 2019)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 🌐 Languages
+- English (Professional)
+- Hindi (Native)
 
-### Jekyll Themes
+### 💡 Professional Summary
+I'm a results-driven Senior Web Developer with expertise in backend development, API integration, and modern web frameworks like Laravel, Vue.js, and React.js. Skilled in managing full project life cycles, optimizing system performance, and leading technical teams. I have a proven track record in building scalable solutions, integrating third-party APIs, and ensuring high-quality project deliverables. I'm looking to leverage my expertise in a challenging role at a forward-thinking organization.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SushantSinghRajput03/SushantSinghRajput03.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to reach out for collaborations or to discuss web development opportunities!
