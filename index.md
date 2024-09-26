@@ -1,10 +1,12 @@
 # 👨‍💻 Sushant Kumar | Senior Web Developer
 
-![Sushant Kumar](/assets/Sushant-Kumar.jpeg)
-
-## 🚀 Welcome to My Portfolio
-
-Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.
+<div style="display: flex; align-items: flex-start;">
+  <img src="/assets/Sushant-Kumar.jpeg" alt="Sushant Kumar" style="width: 30%; margin-right: 20px;">
+  <div>
+    <h2>🚀 Welcome to My Portfolio</h2>
+    <p>Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.</p>
+  </div>
+</div>
 
 ### 📞 Contact
 - 📧 sushantkumarr1234@gmail.com
