@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# 👨‍💻 Sushant Kumar | Senior Web Developer
 
-You can use the [editor on GitHub](https://github.com/SushantSinghRajput03/SushantSinghRajput03.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+![Sushant Kumar](/assets/Sushant-Kumar.jpeg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🚀 Welcome to My Portfolio
 
-### Markdown
+Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 📞 Contact
+- 📧 sushantkumarr1234@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/sushantsinghrajput/)
+- 🐙 [GitHub](https://github.com/SushantSinghRajput03)
+- 📄 [Download Resume](/assets/Sushant-Kumar-resume.pdf)
 
-```markdown
-Syntax highlighted code block
+### 🛠️ Skills
+- **Languages**: PHP, JavaScript, Dart
+- **Frameworks**: Laravel, Vue.js, React.js, Livewire, Bootstrap
+- **Databases**: MySQL, MongoDB, Redis
+- **Tools**: Git, Bitbucket, Jira, Linux, AWS
+- **APIs**: Stripe, RESTful, AWS SDK
 
-# Header 1
-## Header 2
-### Header 3
+### 🌐 Languages
+- English (Professional)
+- Hindi (Native)
 
-- Bulleted
-- List
+### 💡 Professional Summary
+Experienced Web Developer specializing in:
+- Backend development
+- API integration
+- Modern frameworks (Laravel, Vue.js, React.js)
+- Project lifecycle management
+- System performance optimization
+- Technical team leadership
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SushantSinghRajput03/SushantSinghRajput03.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Let's collaborate on your next web development project!
