@@ -2,17 +2,19 @@
 
 <div style="display: flex; align-items: flex-start;">
   <img src="/assets/Sushant-Kumar.jpeg" alt="Sushant Kumar" style="width: 30%; margin-right: 20px;">
-  <div>
-    <h2>🚀 Welcome to My Portfolio</h2>
-    <p>Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.</p>
+  <div style="flex-grow: 1;">
+    <h3>📞 Contact</h3>
+    <ul>
+      <li>📧 sushantkumarr1234@gmail.com</li>
+      <li>🔗 <a href="https://www.linkedin.com/in/sushantsinghrajput/">LinkedIn</a></li>
+      <li>🐙 <a href="https://github.com/SushantSinghRajput03">GitHub</a></li>
+      <li>📄 <a href="/assets/Sushant-Kumar-resume.pdf">Download Resume</a></li>
+    </ul>
   </div>
 </div>
 
-### 📞 Contact
-- 📧 sushantkumarr1234@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/sushantsinghrajput/)
-- 🐙 [GitHub](https://github.com/SushantSinghRajput03)
-- 📄 [Download Resume](/assets/Sushant-Kumar-resume.pdf)
+## 🚀 Welcome to My Portfolio
+Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.
 
 ### 🛠️ Skills
 - **Languages**: PHP, JavaScript, Dart
