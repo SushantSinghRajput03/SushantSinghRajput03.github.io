@@ -14,7 +14,7 @@ Senior Web Developer with 4+ years of experience in backend development, API int
 - 📄 [Download Resume](/assets/Sushant-Kumar-resume.pdf)
 
 ### 🛠️ Skills
-- **Languages**: PHP, JavaScript, Dart
+- **Languages**: PHP, JavaScript
 - **Frameworks**: Laravel, Vue.js, React.js, Livewire, Bootstrap
 - **Databases**: MySQL, MongoDB, Redis
 - **Tools**: Git, Bitbucket, Jira, Linux, AWS
