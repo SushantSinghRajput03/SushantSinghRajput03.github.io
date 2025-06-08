@@ -5,7 +5,7 @@
 </div>
 
 ## 🚀 Welcome to My Portfolio
-Senior Web Developer with 4+ years of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.
+Senior Web Developer with over 5 years and 6 months of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams.
 
 ### 📞 Contact
 - 📧 sushantkumarr1234@gmail.com
