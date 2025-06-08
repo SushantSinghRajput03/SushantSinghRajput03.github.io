@@ -4,449 +4,431 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sushant Kumar | Senior Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
+    /* Base styles and reset */
+    :root {
+      --bg-color: #0d1117;
+      --text-color: #ffffff;
+      --accent-color: #8e54e9;
+      --secondary-accent: #4776e6;
+      --code-bg: #1e2433;
+      --code-header: #161b2b;
+      --green-text: #3ce05e;
+      --blue-text: #5ccfee;
+      --orange-text: #ff6b4b;
+      --purple-text: #c792ea;
+      --gray-text: #8f93a2;
+    }
+    
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
+    
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       line-height: 1.6;
-      color: white;
-      background: linear-gradient(135deg, #1a0033 0%, #330066 100%);
-      overflow-x: hidden;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Main Content Wrapper - Matches the readme.md styling */
-    .main-content-wrapper {
-      background: linear-gradient(135deg, #1a0033 0%, #330066 100%);
-      padding: 40px;
-      border-radius: 15px;
-      color: white;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      max-width: 1200px;
-      margin: 40px auto;
-    }
-
-    /* Header Section - Adopting readme.md styling */
-    .header-section {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 40px;
-      flex-wrap: wrap;
-    }
-
-    .header-info {
-      display: flex;
-      align-items: center;
-    }
-
-    .profile-image {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      border: 4px solid #fff;
-      margin-right: 25px;
-      object-fit: cover;
-    }
-
-    .header-info h1 {
-      margin: 0;
-      font-size: 2.8em;
-      font-weight: 700;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    }
-
-    .header-info p {
-      margin: 5px 0 0;
-      font-size: 1.4em;
-      font-weight: 300;
-      opacity: 0.9;
-    }
-
-    .header-links {
-      margin-top: 20px;
-    }
-
-    .header-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.1em;
-      margin-left: 20px;
-      transition: transform 0.2s ease-in-out;
-      display: inline-flex;
-      align-items: center;
-    }
-
-    .header-links a:hover {
-      transform: translateY(-3px);
-      color: #d1c4e9;
-    }
-
-    .header-links img {
-      vertical-align: middle;
-      margin-right: 5px;
-      width: 28px;
-      height: 28px;
-    }
-
-    /* Section Cards - Matching readme.md styling */
-    .section-card {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 10px;
-      margin-bottom: 30px;
-    }
-
-    .section-card h2 {
-      margin-top: 0;
-      font-size: 2em;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
-
-    /* Skills Section */
-    .skills-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .skill-category {
-      flex: 1;
-      min-width: 250px;
-    }
-
-    .skill-category h3 {
-      margin-top: 0;
-      font-size: 1.4em;
-      color: #d1c4e9;
-      margin-bottom: 10px;
-    }
-
-    .skill-list {
-      list-style: none;
-      padding: 0;
-    }
-
-    .skill-list li {
-      margin-bottom: 5px;
-      font-size: 1.05em;
-      opacity: 0.8;
-    }
-
-    /* Projects Section */
-    .projects-container {
-      padding: 30px 0;
-      margin-bottom: 30px;
-    }
-
-    .projects-section-title {
-      margin-top: 0;
-      font-size: 2em;
-      text-align: center;
-      margin-bottom: 40px;
-      position: relative;
-      color: white;
-    }
-
-    .projects-section-title span {
-      display: block;
-      width: 80px;
-      height: 4px;
-      background: linear-gradient(90deg, #4776E6, #8E54E9);
-      margin: 15px auto 0;
-      border-radius: 2px;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-    }
-
-    .project-card {
-      background-color: rgba(255, 255, 255, 0.15);
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      overflow-x: hidden;
     }
-
-    .project-card h3 {
-      margin-top: 0;
-      font-size: 1.5em;
-      color: white;
-      margin-bottom: 15px;
+    
+    /* Main container */
+    .container {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+      width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
     }
-
-    .project-card p {
-      color: rgba(255, 255, 255, 0.7);
-      margin-bottom: 20px;
-      flex-grow: 1;
+    
+    /* Profile Section (Left) */
+    .profile-section {
+      flex: 1;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      min-width: 300px;
+      max-width: 600px;
     }
-
-    .project-link {
-      display: inline-flex;
+    
+    .profile-image-container {
+      position: relative;
+      margin-bottom: 2.5rem;
+    }
+    
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent-color);
+      box-shadow: 0 0 25px rgba(142, 84, 233, 0.5);
+    }
+    
+    .profile-accent {
+      position: absolute;
+      bottom: 10px;
+      right: 5px;
+      width: 32px;
+      height: 32px;
+      background: var(--accent-color);
+      border-radius: 50%;
+      display: flex;
       align-items: center;
       justify-content: center;
-      padding: 10px 25px;
-      background: linear-gradient(90deg, #4776E6, #8E54E9);
       color: white;
+      font-size: 14px;
+    }
+    
+    .profile-info {
+      margin-bottom: 1.5rem;
+      max-width: 480px;
+    }
+    
+    .profile-tagline {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .social-icons {
+      display: flex;
+      gap: 1.2rem;
+      margin: 2rem 0;
+    }
+    
+    .social-icon {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: var(--text-color);
       text-decoration: none;
-      border-radius: 50px;
-      font-weight: 500;
       transition: all 0.3s ease;
-      margin-top: 15px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
-
-    .project-link:hover {
+    
+    .social-icon:hover {
+      background-color: var(--accent-color);
       transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
-
-    .project-link img {
-      vertical-align: middle;
-      margin-right: 8px;
-      width: 18px;
-      height: 18px;
+    
+    .resume-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.5rem;
+      background-color: transparent;
+      color: var(--text-color);
+      border: 2px solid var(--accent-color);
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: all 0.3s ease;
     }
-
-    /* Contact & Languages Section */
-    .contact-languages-grid {
+    
+    .resume-button:hover {
+      background-color: var(--accent-color);
+      color: white;
+      box-shadow: 0 5px 15px rgba(142, 84, 233, 0.4);
+    }
+    
+    /* Code Section (Right) */
+    .code-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      min-width: 300px;
+    }
+    
+    .code-editor {
+      width: 100%;
+      max-width: 600px;
+      background-color: var(--code-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+    
+    .editor-header {
+      background-color: var(--code-header);
+      padding: 0.6rem 1rem;
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 30px;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-
-    .contact-card,
-    .languages-card {
+    
+    .window-controls {
+      display: flex;
+      gap: 0.5rem;
+    }
+    
+    .control-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    
+    .red-dot {
+      background-color: #ff5f56;
+    }
+    
+    .yellow-dot {
+      background-color: #ffbd2e;
+    }
+    
+    .green-dot {
+      background-color: #27c93f;
+    }
+    
+    .file-name {
+      color: var(--gray-text);
+      font-size: 0.85rem;
+    }
+    
+    .code-content {
+      padding: 1.5rem;
+      font-family: 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      overflow-x: auto;
+      position: relative;
+    }
+    
+    .code-content pre {
+      margin: 0;
+    }
+    
+    .code-line {
+      display: flex;
+    }
+    
+    .line-number {
+      color: var(--gray-text);
+      text-align: right;
+      padding-right: 1rem;
+      min-width: 2rem;
+      user-select: none;
+    }
+    
+    .line-content {
       flex: 1;
-      min-width: 280px;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 10px;
     }
-
-    .contact-card h2,
-    .languages-card h2 {
-      margin-top: 0;
-      font-size: 2em;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-      padding-bottom: 10px;
-      margin-bottom: 20px;
+    
+    .editor-footer {
+      background-color: var(--code-header);
+      padding: 0.4rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: var(--gray-text);
     }
-
-    .contact-card p {
-      font-size: 1.1em;
-      margin-bottom: 15px;
+    
+    /* Syntax highlighting */
+    .token-keyword {
+      color: var(--purple-text);
     }
-
-    .contact-card ul,
-    .languages-card ul {
-      list-style: none;
-      padding: 0;
+    
+    .token-property {
+      color: var(--blue-text);
     }
-
-    .contact-card li,
-    .languages-card li {
-      margin-bottom: 10px;
-      font-size: 1.05em;
-      opacity: 0.8;
+    
+    .token-operator {
+      color: var(--gray-text);
     }
-
-    .contact-card a {
-      color: white;
+    
+    .token-string {
+      color: var(--green-text);
+    }
+    
+    .project-link {
+      color: var(--green-text);
       text-decoration: none;
-      transition: color 0.2s ease;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.2s ease;
     }
-
-    .contact-card a:hover {
-      color: #d1c4e9;
+    
+    .project-link:hover {
+      text-decoration: underline;
+      filter: brightness(120%);
     }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      opacity: 0.8;
+    
+    .project-link::before {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background-color: var(--green-text);
+      transition: width 0.3s ease;
     }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .main-content-wrapper {
-        padding: 20px;
-        margin: 20px auto;
-      }
-
-      .header-section {
+    
+    .project-link:hover::before {
+      width: 100%;
+    }
+    
+    .token-number {
+      color: var(--orange-text);
+    }
+    
+    .token-comment {
+      color: var(--gray-text);
+      font-style: italic;
+    }
+    
+    .token-boolean {
+      color: var(--orange-text);
+    }
+    
+    /* Responsive styles */
+    @media (max-width: 992px) {
+      .container {
         flex-direction: column;
-        align-items: flex-start;
       }
-
-      .header-info {
-        margin-bottom: 20px;
+      
+      .profile-section, .code-section {
+        max-width: 100%;
+        padding: 2rem;
       }
-
-      .header-links {
-        margin-left: 0;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+      
+      .profile-section {
+        align-items: center;
+        text-align: center;
       }
-
-      .header-links a {
-        margin-left: 0;
-        margin-bottom: 10px;
+      
+      .social-icons {
+        justify-content: center;
       }
-
-      .section-card {
-        padding: 20px;
+      
+      .code-editor {
+        margin-top: 2rem;
       }
-
-      .section-card h2 {
-        font-size: 1.8em;
+    }
+    
+    @media (max-width: 480px) {
+      .profile-section, .code-section {
+        padding: 1.5rem;
       }
-
-      .project-card {
-        padding: 20px;
+      
+      .profile-image {
+        width: 150px;
+        height: 150px;
       }
-
-      .contact-languages-grid {
-        flex-direction: column;
+      
+      .profile-tagline {
+        font-size: 1rem;
+      }
+      
+      .code-content {
+        font-size: 0.8rem;
+        padding: 1rem;
       }
     }
   </style>
 </head>
 <body>
-  <div class="main-content-wrapper">
-    <!-- Header Section -->
-    <div class="header-section">
-      <div class="header-info">
-        <img src="assets/Sushant-Kumar.jpeg" alt="Sushant Kumar" class="profile-image" onerror="this.src='https://via.placeholder.com/120?text=SK'">
-        <div>
-          <h1>Sushant Kumar</h1>
-          <p>Senior Web Developer | Innovator | Leader</p>
+  <div class="container">
+    <!-- Profile Section (Left) -->
+    <section class="profile-section">
+      <!-- Profile Image -->
+      <div class="profile-image-container">
+        <img src="assets/Sushant-Kumar.jpeg" alt="Sushant Kumar" class="profile-image" onerror="this.src='https://via.placeholder.com/180?text=SK'">
+        <div class="profile-accent">
+          <i class="fas fa-code"></i>
         </div>
       </div>
-      <div class="header-links">
-        <a href="https://www.linkedin.com/in/sushantsinghrajput/" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" width="28" height="28"> LinkedIn
-        </a>
-        <a href="https://github.com/SushantSinghRajput03" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub" width="28" height="28"> GitHub
-        </a>
-        <a href="assets/Sushant-Kumar-resume.pdf" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/resume.png" alt="Resume" width="28" height="28"> Resume
-        </a>
-      </div>
-    </div>
-
-    <!-- Professional Summary -->
-    <div class="section-card summary-content">
-      <h2>🚀 Professional Summary</h2>
-      <p>I am a Senior Web Developer with over 5 years and 6 months of experience in backend development, API integration, and modern web frameworks. Skilled in building scalable solutions and leading technical teams. Experienced in project lifecycle management, system performance optimization, and technical team leadership.</p>
-    </div>
-
-    <!-- Skills Section -->
-    <div class="section-card">
-      <h2>🛠️ Skills & Expertise</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Languages</h3>
-          <ul class="skill-list">
-            <li>PHP</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Frameworks</h3>
-          <ul class="skill-list">
-            <li>Laravel</li>
-            <li>Vue.js</li>
-            <li>React.js</li>
-            <li>Livewire</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Databases & Tools</h3>
-          <ul class="skill-list">
-            <li>MySQL, MongoDB, Redis</li>
-            <li>Git, Bitbucket, Jira</li>
-            <li>Linux, AWS</li>
-            <li>Stripe, RESTful APIs, AWS SDK</li>
-          </ul>
+      
+      <!-- Profile Information -->
+      <div class="profile-info">
+        <div class="profile-tagline">
+          Turning ideas into code with Laravel & PHP. JavaScript isn't just a language — it's my playground ✨ | Building frameworks, breaking limits 🚀 | Always up for the next big thing ✨
         </div>
       </div>
-    </div>
-
-    <!-- Projects Section -->
-    <div class="projects-container">
-      <h2 class="projects-section-title">
-        🚀 Featured Projects
-        <span></span>
-      </h2>
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <div class="project-card">
-          <div>
-            <h3>Image Forge</h3>
-            <p>A frontend-only image processing application that allows users to resize images directly in the browser. No data or files are saved, making it completely free and secure.</p>
+      
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://github.com/SushantSinghRajput03" class="social-icon" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sushantsinghrajput/" class="social-icon" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="social-icon" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://sushantsinghrajput03.github.io/" class="social-icon" target="_blank">
+          <i class="fas fa-globe"></i>
+        </a>
+      </div>
+      
+      <!-- Resume Button -->
+      <a href="assets/Sushant-Kumar-resume.pdf" class="resume-button" target="_blank">
+        GET RESUME <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+      </a>
+    </section>
+    
+    <!-- Code Section (Right) -->
+    <section class="code-section">
+      <div class="code-editor">
+        <!-- Editor Header -->
+        <div class="editor-header">
+          <div class="window-controls">
+            <div class="control-dot red-dot"></div>
+            <div class="control-dot yellow-dot"></div>
+            <div class="control-dot green-dot"></div>
           </div>
-          <a href="https://imageforge.web.app/" target="_blank" class="project-link">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/external-link.png" alt="External Link" width="18" height="18"> View Project
-          </a>
+          <div class="file-name">coder.js</div>
         </div>
-        <!-- Project 2 -->
-        <div class="project-card">
-          <div>
-            <h3>AI Odyssey: The Quantum Quest</h3>
-            <p>An interactive learning platform that combines AI-powered coding challenges with quantum computing concepts.</p>
-          </div>
-          <a href="https://ai-odyssey-frontend.onrender.com/" target="_blank" class="project-link">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/external-link.png" alt="External Link" width="18" height="18"> View Project
-          </a>
+        
+        <!-- Code Content -->
+        <div class="code-content">
+          <pre><code>
+<div class="code-line"><span class="line-number">1</span><span class="line-content"><span class="token-keyword">const</span> <span class="token-property">coder</span> <span class="token-operator">=</span> {</span></div>
+<div class="code-line"><span class="line-number">2</span><span class="line-content">  <span class="token-property">name</span><span class="token-operator">:</span> <span class="token-string">'Sushant Kumar'</span>,</span></div>
+<div class="code-line"><span class="line-number">3</span><span class="line-content">  <span class="token-property">role</span><span class="token-operator">:</span> <span class="token-string">'Senior Web Developer'</span>,</span></div>
+<div class="code-line"><span class="line-number">4</span><span class="line-content">  <span class="token-property">seniority</span><span class="token-operator">:</span> <span class="token-string">'5+ Years'</span>,</span></div>
+<div class="code-line"><span class="line-number">5</span><span class="line-content">  <span class="token-property">location</span><span class="token-operator">:</span> <span class="token-string">'Kolkata, WB'</span>,</span></div>
+<div class="code-line"><span class="line-number">6</span><span class="line-content">  <span class="token-property">skills</span><span class="token-operator">:</span> {</span></div>
+<div class="code-line"><span class="line-number">7</span><span class="line-content">    <span class="token-property">languages</span><span class="token-operator">:</span> [<span class="token-string">'PHP'</span>, <span class="token-string">'JavaScript'</span>, <span class="token-string">'HTML'</span>, <span class="token-string">'CSS'</span>],</span></div>
+<div class="code-line"><span class="line-number">8</span><span class="line-content">    <span class="token-property">frameworks</span><span class="token-operator">:</span> [<span class="token-string">'Laravel'</span>, <span class="token-string">'Vue.js'</span>, <span class="token-string">'React.js'</span>, <span class="token-string">'Livewire'</span>],</span></div>
+<div class="code-line"><span class="line-number">9</span><span class="line-content">    <span class="token-property">databases</span><span class="token-operator">:</span> [<span class="token-string">'MySQL'</span>, <span class="token-string">'MongoDB'</span>, <span class="token-string">'Redis'</span>],</span></div>
+<div class="code-line"><span class="line-number">10</span><span class="line-content">    <span class="token-property">tools</span><span class="token-operator">:</span> [<span class="token-string">'Git'</span>, <span class="token-string">'Jira'</span>, <span class="token-string">'AWS'</span>, <span class="token-string">'Linux'</span>]</span></div>
+<div class="code-line"><span class="line-number">11</span><span class="line-content">  },</span></div>
+<div class="code-line"><span class="line-number">13</span><span class="line-content">  <span class="token-property">contact</span><span class="token-operator">:</span> <span class="token-string">'sushantkumarr1234@gmail.com'</span>,</span></div>
+<div class="code-line"><span class="line-number">14</span><span class="line-content">  <span class="token-property">hireable</span><span class="token-operator">:</span> <span class="token-boolean">true</span></span></div>
+<div class="code-line"><span class="line-number">15</span><span class="line-content">};</span></div>
+          </code></pre>
+        </div>
+        
+        <!-- Editor Footer -->
+        <div class="editor-footer">
+          <div>UTF-8</div>
+          <div>JavaScript</div>
+          <div>Ln 14, Col 2</div>
         </div>
       </div>
-    </div>
-
-    <!-- Contact & Languages -->
-    <div class="contact-languages-grid">
-      <div class="contact-card">
-        <h2>📞 Get in Touch</h2>
-        <p>Let's collaborate on your next web development project! Feel free to reach out.</p>
-        <ul>
-          <li><strong>Email:</strong> <a href="mailto:sushantkumarr1234@gmail.com">sushantkumarr1234@gmail.com</a></li>
-        </ul>
-      </div>
-      <div class="languages-card">
-        <h2>🌐 Languages</h2>
-        <ul>
-          <li>English (Professional)</li>
-          <li>Hindi (Native)</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <p>&copy; 2025 Sushant Kumar. All rights reserved.</p>
-    </div>
+    </section>
   </div>
 </body>
+
 </html>
